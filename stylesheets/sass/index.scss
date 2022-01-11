@@ -1,0 +1,51 @@
+.gridItem{
+    background-color: rgb(255, 0, 234);
+    margin: 10px;
+    padding: 10px;
+
+}
+.gridContainer{
+    background-color: rgb(103, 52, 243);
+}
+.subGridItem{
+    @extend .gridItem;
+    
+    background-color: rgb(108, 209, 108);
+}
+//ejemplo cuadrado dentro de contenedor
+
+.positionConteiner{
+    margin: 10% auto;
+    width: 50%;
+    height: 200px;
+    border:darkorange solid 3px;
+}
+.positionItem {
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border: darkorchid solid 2px;
+    background: darkseagreen;
+    position: relative;
+    top: 75px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+//ejemplo position fixed
+
+.positionFixed{
+    position:fixed;
+    top: 20px;
+    bottom: 0px;
+    left: 850px;
+    right: 0px;
+    
+}
+
+
+
+
+
+
+

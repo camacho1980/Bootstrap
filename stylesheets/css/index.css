@@ -1,0 +1,43 @@
+.gridItem, .subGridItem {
+  background-color: #ff00ea;
+  margin: 10px;
+  padding: 10px;
+}
+
+.gridContainer {
+  background-color: #6734f3;
+}
+
+.subGridItem {
+  background-color: #6cd16c;
+}
+
+.positionConteiner {
+  margin: 10% auto;
+  width: 50%;
+  height: 200px;
+  border: darkorange solid 3px;
+}
+
+.positionItem {
+  margin: auto;
+  width: 50%;
+  height: 60px;
+  border: darkorchid solid 2px;
+  background: darkseagreen;
+  position: relative;
+  top: 75px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.positionFixed {
+  position: fixed;
+  top: 20px;
+  bottom: 0px;
+  left: 850px;
+  right: 0px;
+}
+
+/*# sourceMappingURL=index.css.map */
